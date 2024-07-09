@@ -1,0 +1,35 @@
+{
+  "name": "databaseutilities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Interactive-Realm/DatabaseUtilities.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Interactive-Realm/DatabaseUtilities/issues"
+  },
+  "homepage": "https://github.com/Interactive-Realm/DatabaseUtilities#readme",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.44.3"
+  }
+}
