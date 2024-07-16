@@ -1,6 +1,6 @@
 {
   "name": "databaseutilities",
-  "version": "0.1.0",
+  "version": "0.8.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -30,6 +30,7 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.44.3"
+    "@supabase/supabase-js": "^2.44.3",
+    "databaseutilities": "^0.1.0"
   }
 }
