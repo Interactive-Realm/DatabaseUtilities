@@ -12,7 +12,7 @@ export const InsertUser = async (first_name: string, phonenumber: string, score:
   return data;
 }
 
-export const CheckUserData = async (number: string, table: string): Promise<void> => {
+export const CheckUserData = async (number: string, table: string): Promise<any> => {
     const { data, error } = await supabase.rpc("check_phonenumber", {
         number_to_check: number,
         table_to_check: table,
